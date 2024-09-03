@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Kashish Kinra</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="uil uil-briefcase nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+
+    <main class="main">
+      <!--========================= Home =====================-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/kashish-kinra-b2908b222/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt home__icon"></i>
+              </a>
+
+              <a
+                href="https://github.com/kashishkinra42"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt home__icon"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-79"
+                    y="-46"
+                    xlink:href="assets/img/kkinra.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Kashish Kinra</h1>
+              <h3 class="home__subtitle">
+                Computer Science Engineering Student
+              </h3>
+              <p class="home__description">
+                A final year undergraduate engineering student at
+                <strong>Mody University of Science and Technology </strong>, Rajasthan.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= About========================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="assets\img\about.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description"  style="text-align: justify;">
+              As a Computer Science Engineer with hands-on experience in C, C++, Java, Python, Machine Learning, and Data Structures & Algorithms, I am seeking an opportunity in Software Engineering, Development and Consulting. I am eager to grow as a developer in a dynamic and collaborative environment, where I can apply my technical expertise to contribute to organizational success. My areas of interest include C++, Web Development, Python, Machine Learning, and UI/UX design.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">09.47</span>
+                <span class="about__info-name">Aggregate <br />CGPA</span>
+              </div>
+
+              <div>
+                <span class="about__info-title">04+</span>
+                <span class="about__info-name"
+                  >
+                  Projects</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">04</span>
+                <span class="about__info-name">Months <br />experience</span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a download="" href="assets\MyCV.pdf" class="button button--flex">
+                Download CV<i class="fas fa-download button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== SKILLS =====================-->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== Skill 1 =================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="fas fa-pencil-ruler skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Programming Languages</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C/C++</h3>
+                  </div>
+                  
+                </div>
+                
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Java</h3>
+                    </div>
+                    
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">JavaScript</h3>
+                    </div>
+                    
+                  </div>
+                  <div class="skills__data">
+                    <div class="skills__titles">
+                      <h3 class="skills__name">Python</h3>
+                    </div>
+                   
+                  </div>
+                
+              </div>
+            </div>
+
+            <!--==================== Skill 2 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-code skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">IT Constructs</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">DBMS</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">DS & Algorithms</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OOP</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">OS</h3>
+                  </div>
+                  
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Computer Networks</h3>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!--==================== Skill 3 =================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fas fa-swatchbook skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Technologies</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Git</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MongoDB</h3>
+                  </div>
+                  
+                </div>
+                
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">ExpressJS</h3>
+                  </div>
+                  
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NodeJs</h3>
+                  </div>
+                  
+                </div>
+                
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                  </div>
+                  
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">UI/UX (User Interface/User Experience)</h3>
+                  </div>
+              </div>
+              
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Machine Learning</h3>
+                </div>
+            </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Qualifications ==================-->
+
+      <section
+        class="qualification__section service__section"
+        id="qualification"
+      >
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div
+          class="qualification__container container grid services__container"
+        >
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--====== Qualification Content 1 ======-->
+            <div
+              class="qualification__content qualifiation__active services__content"
+              data-content
+              id="education"
+            >
+              <!--====== Qualification 1 ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Class 10th</h3>
+                  <span class="qualification__subtitle"
+                    >International <br />Bharti School</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    - 2019
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Class 10th Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Subjects studied: Science, Maths, English,
+                            Social Studies, IT ,Hindi.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Scored 97.4% in CBSE Boards</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--====== Qualification 2 ======-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Class 12th</h3>
+                  <span class="qualification__subtitle"
+                    >Bharat Mata <br />Saraswati Bal Mandir</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    - 2021
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">
+                        Class 12th Summary :
+                      </h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>
+                            Subjects studied: Physics, Chemistry, Maths,
+                            English, Physical Education
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__moda-icon"
+                          ></i>
+                          <p>Scored 89.6%</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--====== Qualification 3 ======-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">College</h3>
+                  <span class="qualification__subtitle"
+                    >Mody University <br />of Science and Technology</span
+                  >
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021 - 2025
+                  </div>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    View More
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <h4 class="services__modal-title">College Summary :</h4>
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Studying core subjects of CSE including DSA, DBMS, Design analysis and algorithm, Operating
+                            systems, and Computer Networks.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>Scored an aggregate of 9.47 CGPA till now.</p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Executive Member of the GDSC-MUST for the session 2021-2023 
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Presented research paper on "Speech Emotion Recognition" at ICASEM 2024, an international conference on recent technologies in science, engineering, and management. 
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            GDSC-MUST hackathon winner.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Got Certified for Python Foundation Certification by Infosys.
+                          </p>
+                        </li>
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>
+                            Published a journal article titled "Human-Computer Interaction: A System for Hand Gesture Recognition" in the Journal of IoT Security and Smart Technologies, Volume 2, Issue 1, April 2023.
+                          </p>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!--<span class="qualification__line"></span>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=================== Portfolio ===================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- ------------------------portfollio 1-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/Netflixclone.png" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Netflix-Clone
+                </h3>
+                <p class="portfolio__description">
+                  Developed a Netflix clone using HTML, CSS, and JavaScript, replicating the core features of the popular streaming platform. The project features a responsive design with a dynamic homepage showcasing a variety of movie and TV show thumbnails, similar to Netflix's interface. Users can navigate through different categories and view detailed content information on individual pages. Smooth animations and transitions were implemented for a user-friendly experience, with JavaScript handling interactions and data management. The project highlights the ability to create engaging, functional web applications with a focus on front-end technologies.
+                </p>
+                <a
+                  href="https://github.com/kashishkinra42/Netflix-Clone"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://kashishkinra42.github.io/Netflix-Clone/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ------------------------portfollio 2-------------------- -->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/HandGesture.jpg" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Hand Gesture Recognition 
+                </h3>
+                <p class="portfolio__description">
+                  Developed a volume control system using OpenCV and Python that leverages hand gestures via webcam to adjust system volume. The system recognizes specific gestures, allowing users to control volume through non-verbal interactions. This project demonstrates the potential of gesture-based control for intuitive and hands-free computer interaction. The findings were published in a journal on Human-Computer Interaction, showcasing advancements in gesture recognition technology and its application in everyday computing tasks. The system highlights innovative approaches to user interface design and contributes to the field of Human-Computer Interaction by exploring new methods of control and interaction.
+                </p>
+                <a
+                  href="https://github.com/kashishkinra42/Gesture-Volume-Control"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://kashishkinra42.github.io/Gesture-Volume-Control/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- ------------------------portfollio 3-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/RestaurantReviewing.jpg" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Restaurant Reviewing using NLP</h3>
+                <p class="portfolio__description">
+                  This machine learning model forecasts whether a given customer review will be favorable or unfavorable for a restaurant. It combines the techniques of count vectorizer and natural language processing (NLP) to analyze the sentiment of reviews. The count vectorizer transforms textual data into numerical features, while NLP techniques process and interpret the meaning behind the words. By training on a dataset of restaurant reviews, the model can predict the sentiment of new reviews, providing valuable insights for restaurant management to understand customer feedback and improve service. This approach enhances decision-making in the hospitality industry by leveraging AI-driven sentiment analysis.
+                </p>
+                <a
+                  href="https://github.com/kashishkinra42/Restaurant-Reviewing-using-NLP"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://kashishkinra42.github.io/Restaurant-Reviewing-using-NLP/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ------------------------portfollio 4-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/Donation.jpg" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Donation for the Needy</h3>
+                <p class="portfolio__description">
+                  The Humanitarianism project is an online platform connecting donors with non-governmental organizations (NGOs) to facilitate impactful giving. It eliminates financial returns, focusing solely on charity. The platform allows global users to contribute towards specific needs identified by NGOs, enhancing transparency and trust. By centralizing and streamlining donations, it aims to revolutionize crowdfunding for humanitarian causes. The mission is to address basic needs, promote self-reliance, and foster sustainable community development. Through its various projects, the initiative seeks to create lasting positive change and uplift communities worldwide.
+                </p>
+                <a
+                  href="https://github.com/kashishkinra42/DonationForTheNeedy"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://kashishkinra42.github.io/DonationForTheNeedy/"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+ <!---=================Experience===============-->
+
+ <section class="experience section" id="experience">
+  <h2 class="section__title">Experience</h2>
+  <span class="section__subtitle">Professional background</span>
+
+  <div class="experience__container container swiper-container">
+    <div class="swiper-wrapper">
+      <!-- ------------------------experience 1-------------------- -->
+      <div class="experience__content grid swiper-slide">
+        <img src="assets/img/GS.jpeg" class="experience__img" />
+
+        <div class="experience__data">
+          <h3 class="experience__title">Summer Analyst - MERN STACK</h3>
+          <span class="experience__title">Goldman Sachs, Hyderabad, Telangana</span>
+          <p class="experience__description">
+            Built and implemented APIs to enable seamless data transfer between Microsoft Word templates and ServiceNow.
+            Led the integration of content control mechanisms within Word templates to ensure data security and integrity.
+            Drove the optimization of workflows, enhancing the efficiency and reliability of incident post-mortem documentation.
+            Conceptualized and developed user-friendly interfaces, improving the usability and accessibility of the system.
+           </p>      
+        </div>
+      </div>
+      <!-- ------------------------experience 2-------------------- -->
+
+      <div class="experience__content grid swiper-slide">
+        <img src="assets/img/GTS.jpeg" class="experience__img" />
+
+        <div class="experience__data">
+          <h3 class="experience__title">Java Developer Intern</h3>
+          <span class="experience__title">Gyan Techno Solutions, Rohtak, Haryana</span>
+          <p class="experience__description">
+            Developed a robust Electricity Billing System using Java, enabling accurate and efficient bill generation.
+Designed and implemented a user-friendly interface for managing customer data and billing information.
+Collaborated with team members to integrate the billing system with payment gateways, ensuring seamless transactions.
+Optimized the system's performance by refining algorithms for faster data processing and bill computation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--===================== Contact Me =====================-->
+<section class="contact section" id="contact">
+  <h2 class="section__title">Contact Me</h2>
+  <span class="section__subtitle">Get in touch</span>
+
+  <div class="contact__container container grid">
+    <div>
+      <div class="contact__information">
+        <i class="uil uil-calling contact__icon"></i>
+
+        <div>
+          <h3 class="contact__title">Contact Me</h3>
+          <span class="contact__subtitle">
+            <a href="tel:8950704602">8950704602</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="contact__information">
+        <i class="uil uil-envelope-minus contact__icon"></i>
+
+        <div>
+          <h3 class="contact__title">Email</h3>
+          <span class="contact__subtitle">kashishkinra42@gmail.com</span>
+        </div>
+      </div>
+
+      <div class="contact__information">
+        <i class="uil uil-map-marker contact__icon"></i>
+
+        <div>
+          <h3 class="contact__title">Location</h3>
+          <span class="contact__subtitle">Rohtak, Haryana, India</span>
+        </div>
+      </div>
+    </div>
+
+    <form action="" class="contact__form grid">
+      <div class="contact__inputs grid">
+        <div class="contact__content">
+          <label for="" class="content__label">Name</label>
+          <input type="text" class="contact__input" />
+        </div>
+
+        <div class="contact__content">
+          <label for="" class="content__label">Email</label>
+          <input type="email" class="contact__input" />
+        </div>
+      </div>
+
+      <div class="contact__content">
+        <label for="" class="content__label">Message</label>
+        <textarea
+          name=""
+          id=""
+          cols="0"
+          rows="7"
+          class="contact__input"
+        ></textarea>
+      </div>
+
+      <div>
+        <a
+          href="mailto:kashishkinra42@gmail.com?subject=Testing%20out%20mailto!&body=This%20is%20only%20a%20test!"
+          class="button button--flex"
+        >
+          Send Message
+          <i class="uil uil-message button__icon"></i>
+        </a>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+    <!--================== Footer ===============-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Kashish</h1>
+            <span class="footer__subtitle"
+              >Computer Science Engineering Student</span
+            >
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#qualification" class="footer__link">Qualification</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact-Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.instagram.com/venkateeshh/"
+              class="footer__social"
+              target="__blank"
+            >
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+
+                      </div>
+        </div>
+
+        <p class="footer__copy">&#169; Kashish. All right reserved</p>
+      </div>
+    </footer>
+
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="assets/ptj.js"></script>
+  </body>
+</html>
