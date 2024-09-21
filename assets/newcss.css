@@ -824,12 +824,19 @@ img {
 /*================ Contact Me ===============*/
 
 .contact__container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around;
+  /* align-items: center; */
   row-gap: 2rem;
 }
 
 .contact__information {
-  display: flex;
+  display: flex !important;
+  flex-direction: row !important;
+  /* align-items: center; */
   margin-bottom: var(--mb-2);
+  margin-right: 2rem; /* Add spacing between items */
 }
 
 .contact__icon {
